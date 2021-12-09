@@ -56,18 +56,14 @@ body {
 	text-decoration: none;
 }
 
-.navigation {
-	margin-left: 93px;
-}
-
-.nav-list {
-	display: flex;
-}
-
 img {
 	max-width: 100%;
 	display: flex;
 	height: auto;
+}
+
+.current {
+	color: var(--accent-color);
 }
 
 /*-------------HEADER-------------*/
@@ -104,8 +100,12 @@ img {
 	bottom: 0;
 }
 
-.current {
-	color: var(--accent-color);
+.navigation {
+	margin-left: 93px;
+}
+
+.nav-list {
+	display: flex;
 }
 
 .logo {
@@ -274,7 +274,7 @@ img {
 	background: var(--action-text-background-color);
 }
 
-/*-------------COMMAND-------------*/
+/*-------------TEAM-------------*/
 
 .team-list {
 	display: flex;
