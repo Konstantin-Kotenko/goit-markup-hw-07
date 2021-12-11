@@ -63,12 +63,12 @@
 	display: block;
 }
 
-.links-list {
+.links__list {
 	justify-content: center;
 	display: flex;
 }
 
-.links-item {
+.links__item {
 	width: 44px;
 	height: 44px;
 	&:not(:last-child) {
@@ -76,7 +76,7 @@
 	}
 }
 
-.links-link {
+.links__link {
 	width: 100%;
 	height: 44px;
 	border-radius: 50%;
@@ -93,7 +93,7 @@
 	}
 }
 
-.links-icon {
+.links__icon {
 	fill: currentColor;
 }
 
@@ -105,6 +105,9 @@
 .logo-container {
 	display: block;
 	margin-right: 70px;
+}
+.logo-container__logo--white {
+	color: var(--secondary-color);
 }
 
 .subscription {
