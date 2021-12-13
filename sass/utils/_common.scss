@@ -1,31 +1,31 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--text-color);
-  background: var(--secondary-color);
+	font-family: 'Roboto', sans-serif;
+	color: var(--text-color);
+	background: var(--secondary-color);
 }
 
 .list {
-  list-style: none;
+	list-style: none;
 }
 
 .link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 img {
-  max-width: 100%;
-  display: flex;
-  height: auto;
+	max-width: 100%;
+	display: flex;
+	height: auto;
 }
 .container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
+	width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
 }
 .section {
-  padding: 94px 0;
+	padding: 94px 0;
 }
 
 .current {
-  color: var(--accent-color);
+	color: var(--accent-color);
 }
