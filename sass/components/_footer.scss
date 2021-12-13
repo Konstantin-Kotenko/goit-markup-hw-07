@@ -1,3 +1,9 @@
+.footer {
+	background-color: var(--primary-background-color);
+	padding: 60px 0;
+	display: flex;
+}
+
 .logo-container {
 	display: block;
 	margin-right: 70px;
@@ -6,7 +12,7 @@
 	color: var(--secondary-color);
 }
 
-.second-contact-list__map-link {
+.second-contact__map-link {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -18,7 +24,7 @@
 	}
 }
 
-.second-contact-list__link {
+.second-contact__link {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -30,14 +36,8 @@
 	}
 }
 
-.second-contact-list__item:not(:last-child) {
+.second-contact__item:not(:last-child) {
 	margin-bottom: 9px;
-}
-
-.footer {
-	background-color: var(--primary-background-color);
-	padding: 60px 0;
-	display: flex;
 }
 
 .address {
