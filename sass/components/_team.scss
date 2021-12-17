@@ -15,11 +15,11 @@
   }
 }
 
-.team-list-item-wrapper {
+.team-list__item-wrapper {
   padding: 30px 32px;
 }
 
-.team-list-item-wrapper__name {
+.team-list__item-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -29,7 +29,7 @@
   margin-bottom: 10px;
 }
 
-.team-list-item-wrapper__position {
+.team-list__item-position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;

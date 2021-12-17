@@ -2,14 +2,14 @@
   padding-bottom: 94px;
 }
 
-.section-title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
   letter-spacing: 0.03em;
-  color: var(--primary-shade-color);
+  color: $primary-shade-color;
 }
 
 .action__list {
@@ -23,7 +23,7 @@
   }
 }
 
-.action-overlay__text {
+.action__overlay-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -33,7 +33,7 @@
   color: var(--secondary-color);
 }
 
-.action-overlay {
+.action__overlay {
   position: absolute;
   bottom: 0;
   left: 0;

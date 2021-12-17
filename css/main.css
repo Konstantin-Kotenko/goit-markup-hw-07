@@ -1,21 +1,20 @@
 :root {
-  --primary-shade-color: #212121;
   --secondary-color: #ffffff;
   --text-color: #757575;
   --accent-color: #2196f3;
   --primary-color: #000000;
-  --secondary-link-color: rgba(255, 255, 255, 0.6);
-  --primary-background-color: #2f303a;
+  --secondary-link-color: #ffffff99;
+  --primary-background-color: #30313b;
   --secondary-background-color: #f5f4fa;
   --header-border-bottom-color: #ececec;
   --border-color: #eeeeee;
-  --social-icon-color: rgba(175, 177, 184, 1);
-  --social-networks-background-color: rgba(255, 255, 255, 0.1);
+  --social-icon-color: #afb1b8;
+  --social-networks-background-color: #ffffff1a;
   --clients-background-color: #e5e5e5;
-  --action-text-background-color: rgba(47, 48, 58, 0.8);
-  --portfolio-text-background-color: rgba(33, 150, 243, 0.9);
-  --backdrop-background-color: rgba(0, 0, 0, 0.2);
-  --border-second-input-color: rgba(33, 33, 33, 0.2);
+  --action-text-background-color: #30313bcc;
+  --portfolio-text-background-color: #2196f3e6;
+  --backdrop-background-color: #00000033;
+  --border-second-input-color: #21212133;
 }
 
 p,
@@ -273,7 +272,7 @@ img {
   color: var(--text-color);
 }
 
-.qualities-icon-wrapper {
+.qualities__icon-wrapper {
   width: 270px;
   padding-bottom: 25px;
   padding-top: 25px;
@@ -293,7 +292,7 @@ img {
   padding-bottom: 94px;
 }
 
-.section-title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -315,7 +314,7 @@ img {
   margin-right: 30px;
 }
 
-.action-overlay__text {
+.action__overlay-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -325,7 +324,7 @@ img {
   color: var(--secondary-color);
 }
 
-.action-overlay {
+.action__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -352,11 +351,11 @@ img {
   margin-right: 30px;
 }
 
-.team-list-item-wrapper {
+.team-list__item-wrapper {
   padding: 30px 32px;
 }
 
-.team-list-item-wrapper__name {
+.team-list__item-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -366,7 +365,7 @@ img {
   margin-bottom: 10px;
 }
 
-.team-list-item-wrapper__position {
+.team-list__item-position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
