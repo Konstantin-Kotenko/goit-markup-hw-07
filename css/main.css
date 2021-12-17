@@ -254,13 +254,13 @@ ul {
   color: #ffffff;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-container--header {
-  border-bottom: 1px solid var(--#ececec);
+.header__border {
+  border-bottom: 1px solid #ececec;
 }
 
 .navigation {
