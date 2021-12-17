@@ -3,12 +3,10 @@
 }
 
 .section__title {
-  font-weight: 700;
-  font-size: 36px;
+  @extend %section;
   line-height: 1.17;
-  text-align: center;
+  @extend %text;
   margin-bottom: 50px;
-  letter-spacing: 0.03em;
   color: $primary-shade-color;
 }
 
@@ -24,13 +22,10 @@
 }
 
 .action__overlay-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
+  @include style(700, 14px, 1.14);
+  @extend %text;
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: $secondary-color;
 }
 
 .action__overlay {
@@ -39,5 +34,5 @@
   left: 0;
   width: 100%;
   padding: 27px 0;
-  background: var(--action-text-background-color);
+  background: rgba($primary-background-color, 0.8);
 }

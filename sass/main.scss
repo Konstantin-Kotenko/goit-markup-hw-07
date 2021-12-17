@@ -1,9 +1,9 @@
 @import './utils/variables';
-@import './utils/reset';
-@import './utils/hidden';
-@import './utils/common';
-@import './utils/btn';
 
+@import './utils/placeholder';
+@import './utils/mixins';
+@import './components/common';
+@import './components/btn';
 @import './components/header';
 @import './components/hero';
 @import './components/qualities';

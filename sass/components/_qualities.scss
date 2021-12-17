@@ -7,27 +7,24 @@
 }
 
 .qualities__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include style(700, 14px, 1.14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-shade-color);
+  color: $primary-shade-color;
   margin-bottom: 10px;
 }
 
 .qualities__paragraph {
-  font-size: 14px;
-  line-height: 1.71;
+  @include style(400, 14px, 1.71);
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: $text-color;
 }
 
 .qualities__icon-wrapper {
   width: 270px;
   padding-bottom: 25px;
   padding-top: 25px;
-  background: var(--secondary-background-color);
+  background: $secondary-background-color;
   border-radius: 4px;
   display: flex;
   margin-bottom: 30px;

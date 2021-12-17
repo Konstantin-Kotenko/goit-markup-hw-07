@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--primary-background-color);
+  background-color: $primary-background-color;
   padding: 60px 0;
   display: flex;
 }
@@ -9,18 +9,18 @@
   margin-right: 70px;
 }
 .logo--secondary {
-  color: var(--secondary-color);
+  color: $secondary-color;
 }
 
 .second-contact__map-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  color: $secondary-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
@@ -28,11 +28,11 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-link-color);
+  color: rgba($secondary-color, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
@@ -46,22 +46,21 @@
 }
 
 .footer__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include style(700, 14px, 1.14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: $secondary-color;
   margin-bottom: 20px;
 }
 
 .footer__join-us {
   display: block;
+  margin-top: 12px;
 }
 
 .social-list__link--background {
   background: rgba(255, 255, 255, 0.1);
-  color: var(--secondary-color);
+  color: $secondary-color;
 }
 
 .footer__container {
@@ -71,39 +70,38 @@
 
 .footer__subscription {
   margin-left: auto;
+  margin-top: 12px;
 }
 
-.subscrip {
+.subscribe {
   display: flex;
 }
 
-.subscrip__input {
+.subscribe__input {
   width: 358px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding: 15px 0px 15px 16px;
-  font-weight: 400;
-  font-size: 16px;
+  @extend %subscribe;
   line-height: 1.25;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-link-color);
+  color: rgba($secondary-color, 0.6);
   outline: none;
   margin-right: 12px;
   &::placeholder {
-    font-weight: 400;
-    font-size: 16px;
+    @extend %subscribe;
     line-height: 1.25;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-link-color);
+    color: rgba($secondary-color, 0.6);
   }
 }
 
-.subscrip__icon {
+.primary-button__icon {
   vertical-align: middle;
   margin-left: 10px;
 }
