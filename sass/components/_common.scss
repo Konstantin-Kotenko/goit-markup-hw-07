@@ -66,3 +66,16 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.section__title {
+  @extend %section;
+  line-height: 1.17;
+  @extend %text;
+  margin-bottom: 50px;
+  color: $primary-shade-color;
+}
+
+.address {
+  margin-top: 20px;
+  font-style: normal;
+}

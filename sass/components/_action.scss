@@ -2,33 +2,25 @@
   padding-bottom: 94px;
 }
 
-.section__title {
-  @extend %section;
-  line-height: 1.17;
-  @extend %text;
-  margin-bottom: 50px;
-  color: $primary-shade-color;
-}
-
-.action__list {
+.action-list {
   display: flex;
 }
 
-.action__item {
+.action-list__item {
   position: relative;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.action__overlay-text {
+.action-list__overlay-text {
   @include style(700, 14px, 1.14);
   @extend %text;
   text-transform: uppercase;
   color: $secondary-color;
 }
 
-.action__overlay {
+.action-list__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
