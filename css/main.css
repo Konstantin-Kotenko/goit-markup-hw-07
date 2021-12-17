@@ -215,11 +215,6 @@ ul {
   margin-bottom: 9px;
 }
 
-.social-list__link--background {
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-}
-
 .social-list {
   display: flex;
 }
@@ -252,6 +247,11 @@ ul {
 
 .social-list__icon {
   fill: currentColor;
+}
+
+.social-list__link--background {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 
 .header-container {
