@@ -20,7 +20,7 @@
 }
 
 .navigation__link {
-  @include style(500, 14px, 1.14);
+  @include font(500, 14px, 1.14);
   padding: 32px 0;
   letter-spacing: 0.02em;
   color: $primary-shade-color;

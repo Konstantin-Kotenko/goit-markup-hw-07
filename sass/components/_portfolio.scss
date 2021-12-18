@@ -26,14 +26,14 @@
 }
 
 .portfolio__title {
-  @include style(700, 18px, 2);
+  @include font(700, 18px, 2);
   letter-spacing: 0.06em;
   color: $primary-shade-color;
   margin-bottom: 4px;
 }
 
 .portfolio__paragraph {
-  @include style(400, 16px, 1.87);
+  @include font(400, 16px, 1.87);
   letter-spacing: 0.03em;
   color: $text-color;
 }
@@ -44,7 +44,7 @@
 }
 
 .portfolio__item-text {
-  @include style(400, 18px, 1.56);
+  @include font(400, 18px, 1.56);
   letter-spacing: 0.03em;
   color: $secondary-color;
 }

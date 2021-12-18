@@ -1,17 +1,17 @@
-.contact {
+.contacts {
   display: flex;
   margin-left: auto;
 }
 
-.contact__item {
+.contacts__item {
   color: $text-color;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.contact__link {
-  @include style(500, 14px, 1.14);
+.contacts__link {
+  @include font(500, 14px, 1.14);
   letter-spacing: 0.02em;
   color: $text-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -21,13 +21,13 @@
   }
 }
 
-.contact__icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
   vertical-align: middle;
 }
 
-.second-contact__map-link {
+.second-contacts__map-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -39,7 +39,7 @@
   }
 }
 
-.second-contact__link {
+.second-contacts__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -51,6 +51,6 @@
   }
 }
 
-.second-contact__item:not(:last-child) {
+.second-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }

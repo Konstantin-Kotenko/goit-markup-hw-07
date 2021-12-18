@@ -20,7 +20,7 @@
 }
 
 .team-list__item-name {
-  @include style(500, 16px, 1.19);
+  @include font(500, 16px, 1.19);
   @extend %text;
   color: $primary-shade-color;
   margin-bottom: 10px;

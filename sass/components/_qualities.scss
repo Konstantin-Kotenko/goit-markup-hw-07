@@ -7,7 +7,7 @@
 }
 
 .qualities__title {
-  @include style(700, 14px, 1.14);
+  @include font(700, 14px, 1.14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $primary-shade-color;
@@ -15,7 +15,7 @@
 }
 
 .qualities__paragraph {
-  @include style(400, 14px, 1.71);
+  @include font(400, 14px, 1.71);
   letter-spacing: 0.03em;
   color: $text-color;
 }
