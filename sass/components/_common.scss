@@ -22,9 +22,6 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
-.section {
-  padding: 94px 0;
-}
 
 .label {
   @include font(400, 12px, 1.16);
@@ -65,14 +62,6 @@ h6 {
 ul {
   margin: 0;
   padding: 0;
-}
-
-.section__title {
-  @extend %section;
-  line-height: 1.17;
-  @extend %text;
-  margin-bottom: 50px;
-  color: $primary-shade-color;
 }
 
 .address {
